@@ -1,0 +1,86 @@
+@media (max-width: 1200px) {
+  .product-tr {
+    h5 {
+      font-size: 15px !important;
+    }
+  }
+  .dashboard-menu {
+    position: absolute;
+    height: 100vh;
+    z-index: 111;
+    width: 100% !important;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .burger {
+    position: absolute;
+    top: 40px;
+
+    svg {
+      display: unset;
+    }
+  }
+  .generator-footer {
+    justify-content: center;
+  }
+
+  .carousel-desc {
+    height: 300px;
+
+    span {
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 50px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+  }
+
+  .carousel-buy {
+    padding: 15px 25px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 16px;
+    transition: all 0.25s;
+  }
+
+  .footer-desc {
+    font-size: 15px;
+    max-width: 550px;
+  }
+  .left-block {
+    p {
+      font-size: 15px !important;
+    }
+  }
+  .payment-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .center-logo {
+    svg {
+      width: 210px;
+      height: 151px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .game-item {
+    width: 167px;
+    height: 197px;
+  }
+  .last-games {
+    margin-top: -222px;
+  }
+}

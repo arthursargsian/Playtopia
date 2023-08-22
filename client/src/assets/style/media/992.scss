@@ -1,0 +1,79 @@
+@media (max-width: 992px) {
+  .auth-wallpaper {
+    display: none;
+  }
+  .main-auth {
+    justify-content: center;
+  }
+  .product-table {
+    p {
+      font-size: 14px !important;
+    }
+
+    .product-tr h5 {
+      font-size: 13px !important;
+    }
+
+    .btns {
+      width: 80px !important;
+    }
+
+    .stars {
+      width: 1px !important;
+
+      div {
+        img {
+          width: 100px !important;
+        }
+      }
+    }
+  }
+  .dashboard-title {
+    span {
+      font-size: 36px;
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .carousel-desc {
+    height: 270px !important;
+
+    span {
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 30px !important;
+    }
+
+    h3 {
+      font-size: 15px;
+      width: 400px;
+    }
+
+    h4 {
+      font-size: 15px;
+    }
+  }
+  .images-container {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+
+    .galleries-block {
+      width: 100%;
+    }
+  }
+  .cover-block {
+    display: none;
+  }
+  .last-games {
+    margin-top: 30px !important;
+  }
+  .center-logo {
+    top: 50% !important;
+  }
+}

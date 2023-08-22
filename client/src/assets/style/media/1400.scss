@@ -1,0 +1,31 @@
+@media (max-width: 1400px) {
+  .carousel-desc {
+    height: 300px;
+
+    span {
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 50px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+  }
+  .block {
+    flex-direction: column;
+  }
+  .map {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .browse-container {
+    justify-content: center;
+  }
+  .center-logo {
+    top: 30%;
+  }
+}

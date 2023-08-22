@@ -1,0 +1,128 @@
+// Create a user
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Aaa Sss",
+  "email": "aadas@gmail.com",
+  "password": "123456",
+  "confPassword": "123456"
+}
+
+###
+// Create with adminrights
+
+POST http://localhost:3000/users/admin
+Content-Type: application/json
+
+{
+  "name": "Aaadmin Sss",
+  "email": "aadmindas@gmail.com",
+  "password": "123456",
+  "confPassword": "123456",
+  "role": "admin"
+}
+
+
+###
+# get All Users
+GET http://localhost:3000/users
+
+###
+# get single user
+GET http://localhost:3000/users/61933ef4-b8ae-4400-8de4-772111ae3d57
+
+
+###
+# update user
+PATCH http://localhost:3000/users/827170e5-4da1-4373-bfdc-c4d4a50d94f2
+Content-Type: application/json
+
+{
+  "name": "Edgar",
+  "email": "edgarm@gmail.com",
+  "password": "",
+  "confPassword": "",
+  "role": "admin"
+}
+
+###
+# DELETE
+
+DELETE http://localhost:3000/users/95549995-ef08-4dbb-a7ff-ed3ce6b10286
+
+###
+// Login User
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "edgarm@gmail.com",
+  "password": "123456"
+}
+
+###
+// Get profile
+
+GET http://localhost:3000/profile
+
+###
+// Logout
+
+DELETE http://localhost:3000/logout
+
+###
+// Get all products
+
+GET http://localhost:3000/products
+
+###
+// Create products
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Wo Long: Fallen Dynasty",
+  "desc": "Action-RPG in the style of dark fantasy, dedicated to the Three Kingdoms. From Team NINJA, developers of Nioh.",
+  "year": "2022.03.3",
+  "price": "10.99",
+  "disc_price": "",
+  "big_url": "https://cdn.cloudflare.steamstatic.com/steam/apps/1448440/header.jpg?t=1677836173",
+  "small_url": ["https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.600x338.jpg?t=1671485009","https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1671485009","https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.600x338.jpg?t=1671485009"],
+  "genre": "Action",
+  "company": "KOEI TECMO GAMES CO., LTD."
+}
+
+
+###
+# get single product
+GET http://localhost:3000/products/3
+
+
+
+
+###
+#// Update product
+
+PATCH http://localhost:3000/products/3
+Content-Type: application/json
+
+{
+  "name": "Red Dead Redemption 2",
+  "desc": "adssadsaxzcsadsadaw",
+  "year": "2018.09.27",
+  "price": "59.99",
+  "disc_price": "19.99",
+  "big_url": "https://images5.alphacoders.com/917/917971.jpg",
+  "small_url": [
+    {
+      "first": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.600x338.jpg?t=1671485009",
+      "second": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1671485009",
+      "third": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.600x338.jpg?t=1671485009"
+    }
+  ],
+  "company": "Rockstar Games North"
+}

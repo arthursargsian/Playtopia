@@ -1,0 +1,58 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto";
+  background: rgba(11, 10, 24, 0.98);
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1800px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, ul, li {
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #787878;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9a09ed;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8c05d9;
+}
+
+img{
+  object-fit: cover;
+}

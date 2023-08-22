@@ -1,0 +1,10 @@
+export {default as ProductModel} from './ProductModel';
+export {default as UserModel} from './UserModel';
+export {default as GenreModel} from './GenresModel'
+export {default as CompaniesModel} from './CompaniesModel'
+export {default as CommentariesModel} from './CommentariesModel'
+export {default as ProductCategories} from './ProductCategories'
+export {default as Rating} from './Rating'
+export {default as Wishlist} from './WishlistModel'
+export {default as Basket} from './BasketModel'
+export {default as FavoriteGames} from './FavoriteGamesModel.js'

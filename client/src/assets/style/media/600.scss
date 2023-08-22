@@ -1,0 +1,97 @@
+@media (max-width: 600px) {
+  .auth-state {
+    font-size: 12px;
+  }
+  .auth-form {
+    span {
+      font-size: 20px;
+    }
+  }
+  .auth-form-block {
+    .auth-box {
+      width: 305px;
+      height: 50px;
+
+      label {
+        font-size: 14px;
+        top: 17px;
+      }
+    }
+  }
+  .auth-btn {
+    width: 110px;
+    height: 37px;
+    padding: unset;
+    margin-left: 45px;
+  }
+  .auth-input {
+    font-size: 15px !important;
+
+    &:focus ~ label,
+    &:valid ~ label,
+    &:valid ~ label {
+      font-size: 12px !important;
+      top: 3px;
+      left: 9px;
+    }
+  }
+  .bars {
+    width: 77%;
+  }
+  .products-control {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .dashboard-search {
+    width: 100%;
+    margin-left: 1px;
+    padding: 10px;
+
+  }
+  .search-mob {
+    .browse-form {
+      background: transparent;
+
+      .dashboard-search {
+        padding: 0 10px 0 10px;
+      }
+    }
+  }
+  .footer-desc {
+    font-size: 10px !important;
+    max-width: 550px;
+  }
+  .items-desc {
+    display: none;
+  }
+  .items-info {
+    display: flex;
+    align-items: center;
+  }
+  .item-delivery {
+    .item-price {
+      font-size: 18px;
+    }
+
+    .item-discprice {
+      font-size: 13px;
+
+    }
+  }
+  .items-title {
+    font-size: 15px !important;
+  }
+
+  .center-logo {
+    h1 {
+      font-size: 30px !important;
+    }
+
+    svg {
+      width: 80px !important;
+      height: 80px !important;
+    }
+  }
+}
+
+

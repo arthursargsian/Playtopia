@@ -1,0 +1,36 @@
+Authentication
+
+Register - ✓
+Register as admin - ✓
+Login - ✓
+Admin verification - ✓
+Login verification - ✓
+JWT Token System (fully functional) - ✓
+Get all users (admin only, pagination) - ✓
+Carousel API - ✓ (not full, without images)
+Email verification - ✓
+
+///
+
+Product management
+
+Create product with genres (admin only) - ✓
+Create genres (admin only) - ✓
+Get all genres (admin only) - ✓
+Write commentaries (login only) - ✓
+Get commentaries - ✓
+Get products (pagination) - ✓
+Get product by id - ✓
+Get single product with commentaries and genres - ✓
+Rating - ✓
+Images upload - ✓
+Wishlist - ✓
+Payment - ✓
+Basket - ✓
+
+
+//
+
+Todo
+
+X

@@ -1,0 +1,168 @@
+.shoping-container {
+  display: flex;
+  gap: 30px;
+}
+
+.payment-block {
+  width: 500px;
+}
+
+.pay {
+  margin: 20px 0 10px 0;
+}
+
+.items-container {
+  width: 100%;
+  background: #2a2742;
+  padding: 15px 8px 15px 8px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.items-block {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.25s;
+
+  &:hover {
+    background: rgba(63, 60, 93, 0.15);
+  }
+}
+
+.items-main {
+  display: flex;
+  gap: 20px;
+}
+
+.items-img {
+  min-width: 110px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  max-width: 110px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.items-info {
+  margin-top: 10px;
+
+}
+
+.items-title {
+}
+
+.items-desc {
+  margin-top: 5px;
+  max-width: 500px;
+}
+
+.item-delivery {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+
+  .item-discprice {
+    text-decoration: line-through;
+    font-size: 20px;
+  }
+}
+
+.card-price {
+  width: 500px;
+  height: 200px;
+  background: #2a2742;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    font-size: 25px;
+    color: #ffffff;
+  }
+}
+
+.basket-block {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.total-price {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 80px 0 0 0;
+}
+
+.basket-paginate {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.status-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-weight: 100;
+  }
+}
+
+.desc-block {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .payment-title {
+    font-size: 25px;
+  }
+
+  .payment-desc {
+    font-size: 15px;
+  }
+
+  .payment-description {
+    font-size: 15px;
+    margin-left: 16px;
+  }
+}
+
+.payment-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 20px;
+}
+
+.basket-payment-container {
+  width: 500px;
+
+  button {
+    margin: 25px 10px 0 0;
+  }
+}
+
+.download-btn {
+  padding: 10px 20px;
+  margin: 300px auto 0;
+}
